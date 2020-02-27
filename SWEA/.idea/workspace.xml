@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5270a768-f6f2-4d39-960c-a234c46cbf96" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WEmVpLcuNh7w90YOgZQZycNqO9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programmers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Solution (3)">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SWEA_8900.Main" />
+      <module name="SWEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SWEA_8900.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="im_a_frog_5550.Solution" />
+      <module name="SWEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="im_a_frog_5550.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="numbers_of_village_7465.Solution" />
+      <module name="SWEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="numbers_of_village_7465.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="connecting_processor_1767.Solution" />
+      <module name="SWEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="connecting_processor_1767.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vertically_speak_of_uiseok_5356.Solution" />
+      <module name="SWEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vertically_speak_of_uiseok_5356.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5270a768-f6f2-4d39-960c-a234c46cbf96" name="Default Changelist" comment="" />
+      <created>1578723154051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578723154051</updated>
+      <workItem from="1578723157605" duration="4840000" />
+      <workItem from="1578817034873" duration="75000" />
+      <workItem from="1579311331277" duration="8570000" />
+      <workItem from="1579327038831" duration="2705000" />
+      <workItem from="1579480863223" duration="59000" />
+      <workItem from="1579495048502" duration="12000" />
+      <workItem from="1579773281582" duration="10306000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1578723168592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578723168592" />
+    <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser" timestamp="1579777633626">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="125" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1579777633626" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579777119170">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579777119170" />
+    <state width="1493" height="52" key="GridCell.Tab.0.bottom" timestamp="1579784464259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578732161604" />
+    <state width="1493" height="52" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579784464259" />
+    <state width="1493" height="52" key="GridCell.Tab.0.center" timestamp="1579784464259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578732161604" />
+    <state width="1493" height="52" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579784464259" />
+    <state width="1493" height="52" key="GridCell.Tab.0.left" timestamp="1579784464259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578732161604" />
+    <state width="1493" height="52" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579784464259" />
+    <state width="1493" height="52" key="GridCell.Tab.0.right" timestamp="1579784464259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="228" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578732161604" />
+    <state width="1493" height="52" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579784464259" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1579319907689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579319907689" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1579319907689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1579319907689" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1579319907689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1579319907689" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1579319907689">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1579319907689" />
+    <state x="459" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579480898481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="459" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579480898481" />
+    <state x="858" y="43" key="refactoring.ChangeSignatureDialog" timestamp="1579312384530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="858" y="43" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1579312384530" />
+    <state x="809" y="72" width="672" height="676" key="search.everywhere.popup" timestamp="1579315506050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="809" y="72" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1579315506050" />
+  </component>
+</project>
