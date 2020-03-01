@@ -62,23 +62,6 @@ class Solution {
         }
     }
 
-    private int findMinChickenDistance() {
-        int min = Integer.MAX_VALUE;
-        for (Integer integer : memo) {
-            if (integer == 0) {
-                continue;
-            }
-            if (min > integer) {
-                min = integer;
-            }
-        }
-        return min;
-    }
-
-    private int chickenDistance(Node a, Node b) {
-        return Math.abs(a.r - b.r) + Math.abs(a.c - b.c);
-    }
-
     private void selectChickenHouse(int[][] map, int n, int start, int r) {
         if(r == 0) {
             calculateMinChickenDistance(map, n);
@@ -106,5 +89,22 @@ class Solution {
             result += min;
         }
         memo.add(result);
+    }
+
+    private int chickenDistance(Node a, Node b) {
+        return Math.abs(a.r - b.r) + Math.abs(a.c - b.c);
+    }
+
+    private int findMinChickenDistance() {
+        int min = Integer.MAX_VALUE;
+        for (Integer integer : memo) {
+            if (integer == 0) {
+                continue;
+            }
+            if (min > integer) {
+                min = integer;
+            }
+        }
+        return min;
     }
 }
