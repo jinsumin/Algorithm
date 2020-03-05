@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/find_dust_17144/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/find_dust_17144/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/gary_manderling_17779/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/gary_manderling_17779/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/gary_manderling_17779/Solution$Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/gary_manderling_17779/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/gary_manderling_17779/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gary_manderling_17779/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gary_manderling_17779/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +14,7 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -58,26 +54,13 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rgb_distance_1149.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="rgb_distance_1149.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="example5.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="example5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tiling_2xn_11726.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tiling_2xn_11726.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +234,7 @@
       <workItem from="1583197813206" duration="17542000" />
       <workItem from="1583239701791" duration="9758000" />
       <workItem from="1583285325318" duration="9134000" />
-      <workItem from="1583369779335" duration="2192000" />
+      <workItem from="1583369779335" duration="5411000" />
     </task>
     <servers />
   </component>
@@ -288,30 +284,30 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578840427044" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582608208739" />
-    <state width="723" height="279" key="GridCell.Tab.0.bottom" timestamp="1583371815166">
+    <state width="723" height="303" key="GridCell.Tab.0.bottom" timestamp="1583376301544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599892619" />
     <state width="2517" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583255266062" />
-    <state width="723" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583371815166" />
-    <state width="723" height="279" key="GridCell.Tab.0.center" timestamp="1583371815166">
+    <state width="723" height="303" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583376301544" />
+    <state width="723" height="303" key="GridCell.Tab.0.center" timestamp="1583376301543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599892618" />
     <state width="2517" height="2" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583255266062" />
-    <state width="723" height="279" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583371815166" />
-    <state width="723" height="279" key="GridCell.Tab.0.left" timestamp="1583371815166">
+    <state width="723" height="303" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583376301543" />
+    <state width="723" height="303" key="GridCell.Tab.0.left" timestamp="1583376301543">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599892618" />
     <state width="2517" height="2" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583255266062" />
-    <state width="723" height="279" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583371815166" />
-    <state width="723" height="279" key="GridCell.Tab.0.right" timestamp="1583371815166">
+    <state width="723" height="303" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583376301543" />
+    <state width="723" height="303" key="GridCell.Tab.0.right" timestamp="1583376301544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599892619" />
     <state width="2517" height="2" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583255266062" />
-    <state width="723" height="279" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583371815166" />
+    <state width="723" height="303" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583376301544" />
     <state width="1493" height="285" key="GridCell.Tab.1.bottom" timestamp="1582608209845">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
