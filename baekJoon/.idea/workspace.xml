@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baekJoon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/baekJoon.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,13 +54,26 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="term_project_9466.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="term_project_9466.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="balanced_world_4949.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="balanced_world_4949.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,25 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sum_of_partial_series_1182.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="complex_numbering_2667.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sum_of_partial_series_1182.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="curious_prime_number_2023.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="curious_prime_number_2023.*" />
+          <option name="PATTERN" value="complex_numbering_2667.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +244,8 @@
       <workItem from="1583976999793" duration="14832000" />
       <workItem from="1584016561554" duration="292000" />
       <workItem from="1584078962956" duration="2273000" />
-      <workItem from="1584083531669" duration="2016000" />
+      <workItem from="1584083531669" duration="5917000" />
+      <workItem from="1584322009265" duration="2697000" />
     </task>
     <servers />
   </component>
@@ -296,30 +295,30 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578840427044" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582608208739" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1584085617209">
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom" timestamp="1584324712836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1232" height="309" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584085617209" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1584085617209">
+    <state width="1493" height="46" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584324712836" />
+    <state width="1493" height="46" key="GridCell.Tab.0.center" timestamp="1584324712835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1232" height="309" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584085617209" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1584085617209">
+    <state width="1493" height="46" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584324712835" />
+    <state width="1493" height="46" key="GridCell.Tab.0.left" timestamp="1584324712835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1232" height="309" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584085617209" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1584085617209">
+    <state width="1493" height="46" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584324712835" />
+    <state width="1493" height="46" key="GridCell.Tab.0.right" timestamp="1584324712835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1232" height="309" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584085617209" />
+    <state width="1493" height="46" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584324712835" />
     <state width="1493" height="284" key="GridCell.Tab.1.bottom" timestamp="1583999800507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -346,12 +345,12 @@
     <state x="2435" y="260" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579276369687" />
     <state x="2917" y="219" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583660183833" />
     <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581401859219" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1584083541207">
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1584322044813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583461920860" />
     <state x="2693" y="134" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583752714745" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584083541207" />
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584322044813" />
     <state x="499" y="191" key="extract.method.dialog" timestamp="1580220156942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -365,10 +364,10 @@
     </state>
     <state x="3412" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583249286210" />
     <state x="895" y="32" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1583980545295" />
-    <state x="809" y="190" key="run.anything.popup" timestamp="1583829215359">
+    <state x="809" y="190" key="run.anything.popup" timestamp="1584088633984">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1583829215359" />
+    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584088633984" />
     <state x="3277" y="183" width="1120" height="856" key="search.everywhere.popup" timestamp="1583253222726">
       <screen x="1920" y="0" width="2560" height="1040" />
     </state>
