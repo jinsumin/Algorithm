@@ -4,6 +4,12 @@
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/example3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/example3/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/example3/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/example3/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cheese_2638/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cheese_2638/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +36,7 @@
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -69,13 +76,13 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cheese_2638.Main" />
+      <option name="MAIN_CLASS_NAME" value="example7.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cheese_2638.*" />
+          <option name="PATTERN" value="example7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +91,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="balanced_world_4949.Main" />
+      <option name="MAIN_CLASS_NAME" value="game_scabbing_14696.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="balanced_world_4949.*" />
+          <option name="PATTERN" value="game_scabbing_14696.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,11 +104,24 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_sequence_1874.Main" />
+      <option name="MAIN_CLASS_NAME" value="queue2_18258.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack_sequence_1874.*" />
+          <option name="PATTERN" value="queue2_18258.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gogodan.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gogodan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +130,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="complex_numbering_2667.Main" />
+      <option name="MAIN_CLASS_NAME" value="castle_2234.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="complex_numbering_2667.*" />
+          <option name="PATTERN" value="castle_2234.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="baekJoon" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="buffoon_17530.MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +267,16 @@
       <workItem from="1584016561554" duration="292000" />
       <workItem from="1584078962956" duration="2273000" />
       <workItem from="1584083531669" duration="5917000" />
-      <workItem from="1584322009265" duration="24586000" />
+      <workItem from="1584322009265" duration="24802000" />
+      <workItem from="1584353065529" duration="133000" />
+      <workItem from="1584358798858" duration="5662000" />
+      <workItem from="1584407075565" duration="17575000" />
+      <workItem from="1584494640076" duration="15597000" />
+      <workItem from="1584579450312" duration="4722000" />
+      <workItem from="1584584270339" duration="17525000" />
+      <workItem from="1584677596546" duration="6243000" />
+      <workItem from="1584879516497" duration="2994000" />
+      <workItem from="1585014503896" duration="15430000" />
     </task>
     <servers />
   </component>
@@ -280,19 +296,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579270780722" />
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1583227565763">
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603463472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1582293141980" />
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583227565763" />
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584603463472" />
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579270776214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1579270776214" />
-    <state x="833" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582246347544">
+    <state x="833" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584584170493">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="833" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1582246347544" />
+    <state x="833" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584584170493" />
     <state x="472" y="84" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581327261883">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -310,62 +326,62 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578840427044" />
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582608208739" />
-    <state width="1493" height="420" key="GridCell.Tab.0.bottom" timestamp="1584350856222">
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1585034640603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
-    <state width="1232" height="309" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="420" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584350856222" />
-    <state width="1493" height="420" key="GridCell.Tab.0.center" timestamp="1584350856221">
+    <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
+    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1585034640603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
-    <state width="1232" height="309" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="420" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584350856221" />
-    <state width="1493" height="420" key="GridCell.Tab.0.left" timestamp="1584350856221">
+    <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
+    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1585034640603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
-    <state width="1232" height="309" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="420" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584350856221" />
-    <state width="1493" height="420" key="GridCell.Tab.0.right" timestamp="1584350856222">
+    <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
+    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1585034640603">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
-    <state width="1232" height="309" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583500116104" />
-    <state width="1493" height="420" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584350856222" />
-    <state width="1493" height="284" key="GridCell.Tab.1.bottom" timestamp="1583999800507">
+    <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
+    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
+    <state width="1493" height="284" key="GridCell.Tab.1.bottom" timestamp="1585030167349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583999800507" />
-    <state width="1493" height="284" key="GridCell.Tab.1.center" timestamp="1583999800507">
+    <state width="1493" height="284" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
+    <state width="1493" height="284" key="GridCell.Tab.1.center" timestamp="1585030167349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583999800507" />
-    <state width="1493" height="284" key="GridCell.Tab.1.left" timestamp="1583999800507">
+    <state width="1493" height="284" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
+    <state width="1493" height="284" key="GridCell.Tab.1.left" timestamp="1585030167349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583999800507" />
-    <state width="1493" height="284" key="GridCell.Tab.1.right" timestamp="1583999800507">
+    <state width="1493" height="284" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
+    <state width="1493" height="284" key="GridCell.Tab.1.right" timestamp="1585030167349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583999800507" />
+    <state width="1493" height="284" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
     <state x="22" y="58" key="SettingsEditor" timestamp="1584339758181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2435" y="260" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579276369687" />
     <state x="2917" y="219" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583660183833" />
     <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584339758181" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1584322044813">
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1585014503229">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583461920860" />
-    <state x="2693" y="134" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583752714745" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584322044813" />
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1584358799028" />
+    <state x="2693" y="134" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584879516937" />
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585014503229" />
     <state x="499" y="191" key="extract.method.dialog" timestamp="1580220156942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -424,11 +440,6 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dfs_bfs_1260/Main.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/maza_escape_14923/Main.java</url>
           <line>65</line>
           <option name="timeStamp" value="29" />
@@ -472,6 +483,26 @@
           <url>file://$PROJECT_DIR$/src/rgb_distance_1149/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/make_bridge_2146/Main.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/drunken_sangbum_6359/Main.java</url>

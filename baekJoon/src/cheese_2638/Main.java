@@ -33,6 +33,10 @@ public class Main {
 }
 
 class Solution {
+    private static final int CHEESE = 1;
+    private static final int INNER_AIR = 2;
+    private static final int AIR = 0;
+    private static final int OUTER_AIR = 3;
     private static final int[] MOVE_R = {1, 0, -1, 0};
     private static final int[] MOVE_C = {0, 1, 0, -1};
 
@@ -55,32 +59,57 @@ class Solution {
         while (!isCheeseEmpty(map)) {
             init(map);
             visited = new boolean[map.length][map[0].length];
-            for (int i = 0; i < map.length; i++) {
-                for (int j = 0; j < map[0].length; j++) {
-                    if (!visited[i][j]) {
-                        flag = true;
-                        findInternalSpace(map, new Node(i, j));
-                        if (flag) {
-                            while (!internalSpaceQueue.isEmpty()) {
-                                Node innerSpaceNode = internalSpaceQueue.poll();
-                                map[innerSpaceNode.r][innerSpaceNode.c] = 2;
-                            }
-                        }
-                    }
-                }
-            }
+//            for (int i = 0; i < map.length; i++) {
+//                for (int j = 0; j < map[0].length; j++) {
+//                    if (!visited[i][j]) {
+//                        flag = true;
+//                        findInternalSpace(map, new Node(i, j));
+//                        if (flag) {
+//                            while (!internalSpaceQueue.isEmpty()) {
+//                                Node innerSpaceNode = internalSpaceQueue.poll();
+//                                map[innerSpaceNode.r][innerSpaceNode.c] = INNER_AIR;
+//                            }
+//                        }
+//                    }
+//                }
+//            }
+            findOuterAir(map, new Node(0, 0));
             findExposedCheese(map);
             deleteCheese(map);
             time++;
-            for (int i = 0; i < map.length; i++) {
+            for (int[] ints : map) {
                 for (int j = 0; j < map[0].length; j++) {
-                    System.out.print(map[i][j] + " ");
+                    System.out.print(ints[j] + " ");
                 }
                 System.out.println();
             }
             System.out.println();
         }
         return time;
+    }
+
+    private void findOuterAir(int[][] map, Node node) {
+        Queue<Node> outerAirQueue = new LinkedList<>();
+        outerAirQueue.offer(node);
+        visited[node.r][node.c] = true;
+        while(!outerAirQueue.isEmpty()) {
+            Node currentNode = outerAirQueue.poll();
+            visited[currentNode.r][currentNode.c] = true;
+            map[currentNode.r][currentNode.c] = OUTER_AIR;
+            for(int i = 0; i < 4; i ++) {
+                Node nextNode = new Node(currentNode.r + MOVE_R[i], currentNode.c + MOVE_C[i]);
+                if(nextNode.r < 0 || nextNode.c < 0 || nextNode.r > map.length - 1 || nextNode.c > map[0].length - 1) {
+                    continue;
+                }
+                if(visited[nextNode.r][nextNode.c]) {
+                    continue;
+                }
+                if(map[nextNode.r][nextNode.c] != AIR) {
+                    continue;
+                }
+                outerAirQueue.offer(nextNode);
+            }
+        }
     }
 
     private void deleteCheese(int[][] map) {
@@ -93,7 +122,7 @@ class Solution {
     private boolean isCheeseEmpty(int[][] map) {
         for (int[] ints : map) {
             for (int j = 0; j < map[0].length; j++) {
-                if (ints[j] == 1) {
+                if (ints[j] == CHEESE) {
                     return false;
                 }
             }
@@ -104,8 +133,8 @@ class Solution {
     private void init(int[][] map) {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
-                if (map[i][j] == 2) {
-                    map[i][j] = 0;
+                if (map[i][j] == OUTER_AIR) {
+                    map[i][j] = AIR;
                 }
             }
         }
@@ -114,7 +143,7 @@ class Solution {
     private void findExposedCheese(int[][] map) {
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
-                if (map[i][j] == 1) {
+                if (map[i][j] == CHEESE) {
                     int count = 0;
                     for (int k = 0; k < 4; k++) {
                         int nextR = i + MOVE_R[k];
@@ -122,7 +151,7 @@ class Solution {
                         if (nextR < 0 || nextC < 0 || nextR >= map.length || nextC >= map[0].length) {
                             continue;
                         }
-                        if (map[nextR][nextC] == 0) {
+                        if (map[nextR][nextC] == OUTER_AIR) {
                             count++;
                         }
                     }
@@ -135,7 +164,8 @@ class Solution {
     }
 
     private void findInternalSpace(int[][] map, Node currentNode) {
-        if (map[currentNode.r][currentNode.c] == 0) {
+        if (map[currentNode.r][currentNode.c] == AIR) {
+            // 외부 공기
             if (currentNode.r == 0 || currentNode.c == 0 || currentNode.r == map.length - 1 || currentNode.c == map[0].length - 1) {
                 internalSpaceQueue.clear();
                 flag = false;
@@ -150,7 +180,7 @@ class Solution {
                 if (nextR < 0 || nextC < 0 || nextR >= map.length || nextC >= map[0].length) {
                     continue;
                 }
-                if (map[nextNode.r][nextNode.c] != 0) {
+                if (map[nextNode.r][nextNode.c] != AIR) {
                     continue;
                 }
                 if (visited[nextNode.r][nextNode.c]) {
