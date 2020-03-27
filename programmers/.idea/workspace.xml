@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="" />
+    <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/news_clustering/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/string_compression/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/META-INF/baekJoon.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/META-INF/baekJoon.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Solution$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/example7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/example7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/castle_2234/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/castle_2234/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/example7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/example7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/ladder_manipulation_15684/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/ladder_manipulation_15684/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/META-INF/programmers.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/level3/network/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmers/level3/network/Solution.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1W8fedcAXThmWOo1vY44FWlZOmu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +44,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baekJoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,20 +56,20 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="level3.disk_controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level3.disk_controller.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="level2.string_compression.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level3.disk_controller.*" />
+          <option name="PATTERN" value="level2.string_compression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +117,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level2.open_chatting.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.news_clustering.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level2.open_chatting.*" />
+          <option name="PATTERN" value="level2.news_clustering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +193,7 @@
       <workItem from="1582596386667" duration="2422000" />
       <workItem from="1582608211556" duration="4208000" />
       <workItem from="1582680457659" duration="22000" />
+      <workItem from="1585271438316" duration="6691000" />
     </task>
     <servers />
   </component>
@@ -181,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1579572821987" />
-    <state x="722" y="74" key="#Project_Structure" timestamp="1578536243406">
+    <state x="722" y="74" key="#Project_Structure" timestamp="1585271447372">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1578536243406" />
+    <state x="722" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585271447372" />
     <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1581473270696">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -202,26 +226,26 @@
     </state>
     <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1580317369337" />
     <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582680477200" />
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom" timestamp="1582610991128">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom" timestamp="1585278236907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="188" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579598782102" />
-    <state width="1493" height="307" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582610991128" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center" timestamp="1582610991128">
+    <state width="1493" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585278236907" />
+    <state width="1493" height="194" key="GridCell.Tab.0.center" timestamp="1585278236907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="188" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579598782102" />
-    <state width="1493" height="307" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582610991128" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left" timestamp="1582610991128">
+    <state width="1493" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585278236907" />
+    <state width="1493" height="194" key="GridCell.Tab.0.left" timestamp="1585278236907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="188" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579598782102" />
-    <state width="1493" height="307" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582610991128" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right" timestamp="1582610991128">
+    <state width="1493" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585278236907" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right" timestamp="1585278236907">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="188" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579598782102" />
-    <state width="1493" height="307" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582610991128" />
+    <state width="1493" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585278236907" />
     <state width="723" height="324" key="GridCell.Tab.1.bottom" timestamp="1581483213667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -251,6 +275,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="474" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580869654085" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585272993448">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585272993448" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
