@@ -1,68 +1,102 @@
 package problem3;
 
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.ArrayList;
 
 /**
- * Created by Crab on 2020-03-28.
+ * Created by Crab on 2020-03-29.
  */
 public class Main {
     public static void main(String[] args) {
-        String[] user_id = {"frodo", "fradi", "crodo", "abc123", "frodoc"};
-        String[] banned_id = {"frodo", "fradi"};
+        int[] A = {3, 2, 1, 4};
         Solution solution = new Solution();
-        System.out.println(solution.solution(user_id, banned_id));
+        System.out.println(solution.solution(A));
     }
 }
 
 class Solution {
-    public int solution(String[] user_id, String[] banned_id) {
-        int answer = 1;
-        HashMap<Integer, String> hashMap = new HashMap<>();
-        int index = 0;
-        for (int i = 0; i < banned_id.length; i++) {
-            if (!hashMap.containsValue(banned_id[i])) {
-                hashMap.put(index++, banned_id[i]);
-            } else {
-                hashMap.values().removeAll(Collections.singleton(banned_id[i]));
+    public int solution(int[] A) {
+        int answer = 0;
+        if (check(A, 0, 0)) {
+            return 0;
+        } else {
+            for (int i = 0; i < A.length; i++) {
+                if (check(A, i, 1)) {
+                    //System.out.println("i : " + i);
+                    answer ++;
+                }
             }
         }
-        int[] visited = new int[user_id.length];
-        System.out.println(hashMap);
-        Iterator<Integer> iterator = hashMap.keySet().iterator();
-        while (iterator.hasNext()) {
-            int key = iterator.next();
-            String banID = hashMap.get(key);
-            System.out.println(banID);
-            int count = 0;
-            for (int j = 0; j < user_id.length; j++) {
-                String userID = user_id[j];
-                if (banID.length() != userID.length()) {
+        if (answer == 0) {
+            return -1;
+        } else {
+            return answer;
+        }
+    }
+
+    private boolean check(int[] a, int index, int t) {
+        if (t == 0) {
+            int state = 0;
+            for(int i = 1; i < a.length; i ++) {
+                if(state == 0) {
+                    if(a[i - 1] < a[i]) {
+                        state = 1;
+                    } else if (a[i - 1] > a[i]){
+                        state = -1;
+                    } else {
+                        return false;
+                    }
+                } else {
+                    if (state == 1) {
+                        if (a[i - 1] <= a[i]) {
+                            return false;
+                        } else {
+                            state = -1;
+                        }
+                    } else {
+                        if (a[i - 1] >= a[i]) {
+                            return false;
+                        } else {
+                            state = 1;
+                        }
+                    }
+                }
+            }
+            return true;
+        } else {
+            ArrayList<Integer> arrayList = new ArrayList<>();
+            for (int i = 0; i < a.length; i ++) {
+                if (i == index) {
                     continue;
                 }
-                boolean flag = true;
-                for (int k = 0; k < banID.length(); k++) {
-                    if (banID.charAt(k) == '*') {
-                        continue;
+                arrayList.add(a[i]);
+            }
+            int state = 0;
+            for(int i = 1; i < arrayList.size(); i ++) {
+                if(state == 0) {
+                    if(arrayList.get(i - 1) < arrayList.get(i)) {
+                        state = 1;
+                    } else if (arrayList.get(i - 1) > arrayList.get(i)){
+                        state = -1;
+                    } else {
+                        return false;
                     }
-                    if (banID.charAt(k) != userID.charAt(k)) {
-                        flag = false;
+                } else {
+                    if (state == 1) {
+                        if (arrayList.get(i - 1) <= arrayList.get(i)) {
+                            return false;
+                        } else {
+                            state = -1;
+                        }
+                    } else {
+                        if (arrayList.get(i - 1) >= arrayList.get(i)) {
+                            return false;
+                        } else {
+                            state = 1;
+                        }
                     }
                 }
-                if (flag) {
-                    visited[j]++;
-                    count++;
-                }
             }
-            answer *= count;
+            return true;
         }
-        for (int i = 0; i < visited.length; i++) {
-            if (visited[i] == 0 || visited[i] == 1) {
-                continue;
-            }
-            answer -= (visited[i] - 1);
-        }
-        return answer;
     }
 }

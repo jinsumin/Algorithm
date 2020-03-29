@@ -1,47 +1,69 @@
 package problem1;
 
-import java.util.Stack;
+import java.util.ArrayList;
+import java.util.Collections;
 
 /**
- * Created by Crab on 2020-03-28.
+ * Created by Crab on 2020-03-29.
  */
 public class Main {
     public static void main(String[] args) {
-        int[][] board = {
-                {0, 0, 0, 0, 0},
-                {0, 0, 1, 0, 3},
-                {0, 2, 5, 0, 1},
-                {4, 2, 4, 4, 2},
-                {3, 5, 1, 3, 1}
-        };
-        int[] moves = {1, 5, 3, 5, 1, 2, 1, 4};
+        int[] A = {3, 2, 1};
         Solution solution = new Solution();
-        System.out.println(solution.solution(board, moves));
+        System.out.println(solution.solution(A));
     }
 }
 
 class Solution {
-    public int solution(int[][] board, int[] moves) {
-        int answer = 0;
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < moves.length; i ++) {
-            for (int j = 0; j < board.length; j ++) {
-                if (board[j][moves[i] - 1] != 0) {
-                    if (!stack.isEmpty()) {
-                        if (stack.peek() == board[j][moves[i] - 1] ){
-                            stack.pop();
-                            answer += 2;
-                        } else {
-                            stack.push(board[j][moves[i] - 1]);
-                        }
-                    } else {
-                        stack.push(board[j][moves[i] - 1]);
+    public int solution(int[] A) {
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        for (int value : A) {
+            arrayList.add(value);
+        }
+        arrayList.sort(Collections.reverseOrder());
+        int count = 1;
+        int temp = arrayList.get(0);
+        if (arrayList.get(0) == 1) {
+            if (arrayList.size() == 1) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+        for (int i = 1; i < arrayList.size(); i ++) {
+            if (arrayList.get(i) == 1) {
+                if (i != arrayList.size() - 1) {
+                    return 0;
+                }
+            }
+            if (arrayList.get(i) > arrayList.size()) {
+                continue;
+            }
+            if (arrayList.get(i) != temp) {
+                temp = arrayList.get(i);
+                count = 1;
+                if(arrayList.get(i) == 1) {
+                    if (arrayList.size() - 1 == i) {
+                        return count;
                     }
-                    board[j][moves[i] - 1] = 0;
-                    break;
+                    return 0;
+                }
+            } else {
+                if (arrayList.get(i) == 1) {
+                    return count;
+                }
+                count++;
+                if (count == arrayList.get(i)) {
+                    if (i == arrayList.size() - 1) {
+                        return count;
+                    }
+                    if (arrayList.get(i + 1) == temp) {
+                        continue;
+                    }
+                    return count;
                 }
             }
         }
-        return answer;
+        return 0;
     }
 }
