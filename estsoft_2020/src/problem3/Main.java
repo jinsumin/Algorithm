@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-        int[] A = {1, 2, 1, 2, 2};
+        int[] A = {2, 4, 4, 2};
         Solution solution = new Solution();
         System.out.println(solution.solution(A));
     }
@@ -40,8 +40,10 @@ class Solution {
                 if(state == 0) {
                     if(a[i - 1] < a[i]) {
                         state = 1;
-                    } else {
+                    } else if (a[i - 1] > a[i]){
                         state = -1;
+                    } else {
+                        return false;
                     }
                 } else {
                     if (state == 1) {
@@ -73,8 +75,10 @@ class Solution {
                 if(state == 0) {
                     if(arrayList.get(i - 1) < arrayList.get(i)) {
                         state = 1;
-                    } else {
+                    } else if (arrayList.get(i - 1) > arrayList.get(i)){
                         state = -1;
+                    } else {
+                        return false;
                     }
                 } else {
                     if (state == 1) {
