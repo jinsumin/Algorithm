@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/cheese_2638/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/example3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/example3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/example3/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/example3/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cheese_2638/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cheese_2638/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/example3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/META-INF/baekJoon.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/META-INF/baekJoon.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/castle_2234/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/castle_2234/Solution$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/castle_2234/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/example7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/example7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/ladder_manipulation_15684/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/ladder_manipulation_15684/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/ladder_manipulation_15684/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/ladder_manipulation_15684/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/castle_2234/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/castle_2234/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/example7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/example7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ladder_manipulation_15684/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ladder_manipulation_15684/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +38,8 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -58,7 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programmers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,7 +79,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example7.Main" />
       <module name="baekJoon" />
@@ -91,11 +94,24 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="game_scabbing_14696.Main" />
+      <option name="MAIN_CLASS_NAME" value="line_up_14864.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="game_scabbing_14696.*" />
+          <option name="PATTERN" value="line_up_14864.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seoul_to_gyungsan_14863.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seoul_to_gyungsan_14863.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue2_18258.Main" />
+      <option name="MAIN_CLASS_NAME" value="wine_tasting_2156.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue2_18258.*" />
+          <option name="PATTERN" value="wine_tasting_2156.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,39 +132,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gogodan.Main" />
+    <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gogodan.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="castle_2234.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="castle_2234.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="min_max_10818.Main" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Kotlin.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +279,13 @@
       <workItem from="1584584270339" duration="17525000" />
       <workItem from="1584677596546" duration="6243000" />
       <workItem from="1584879516497" duration="2994000" />
-      <workItem from="1585014503896" duration="15430000" />
+      <workItem from="1585014503896" duration="19150000" />
+      <workItem from="1585098518634" duration="3632000" />
+      <workItem from="1585103921609" duration="2815000" />
+      <workItem from="1585110155686" duration="1416000" />
+      <workItem from="1585117036083" duration="13972000" />
+      <workItem from="1585195574322" duration="5552000" />
+      <workItem from="1585271413588" duration="22000" />
     </task>
     <servers />
   </component>
@@ -284,10 +293,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Auto_Import" timestamp="1582184094139">
+    <state x="361" y="71" key="#Auto_Import" timestamp="1585104360624">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1582184094139" />
+    <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1585104360624" />
     <state x="361" y="70" key="#Project_Structure" timestamp="1577444167657">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -296,11 +305,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1579270780722" />
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1584603463472">
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1585098714996">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1582293141980" />
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584603463472" />
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585098714996" />
     <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579270776214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -321,67 +330,67 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="490" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1578831728051" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582608208739">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585271433881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1578840427044" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582608208739" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom" timestamp="1585034640603">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585271433881" />
+    <state width="723" height="551" key="GridCell.Tab.0.bottom" timestamp="1585217196046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center" timestamp="1585034640603">
+    <state width="723" height="551" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585217196046" />
+    <state width="723" height="551" key="GridCell.Tab.0.center" timestamp="1585217196046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left" timestamp="1585034640603">
+    <state width="723" height="551" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585217196046" />
+    <state width="723" height="551" key="GridCell.Tab.0.left" timestamp="1585217196045">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
-    <state width="1493" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right" timestamp="1585034640603">
+    <state width="723" height="551" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585217196045" />
+    <state width="723" height="551" key="GridCell.Tab.0.right" timestamp="1585217196046">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585034640603" />
-    <state width="1493" height="284" key="GridCell.Tab.1.bottom" timestamp="1585030167349">
+    <state width="723" height="551" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585217196046" />
+    <state width="723" height="282" key="GridCell.Tab.1.bottom" timestamp="1585203204684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
-    <state width="1493" height="284" key="GridCell.Tab.1.center" timestamp="1585030167349">
+    <state width="723" height="282" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585203204684" />
+    <state width="723" height="282" key="GridCell.Tab.1.center" timestamp="1585203204682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
-    <state width="1493" height="284" key="GridCell.Tab.1.left" timestamp="1585030167349">
+    <state width="723" height="282" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585203204682" />
+    <state width="723" height="282" key="GridCell.Tab.1.left" timestamp="1585203204682">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
-    <state width="1493" height="284" key="GridCell.Tab.1.right" timestamp="1585030167349">
+    <state width="723" height="282" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585203204682" />
+    <state width="723" height="282" key="GridCell.Tab.1.right" timestamp="1585203204683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="1493" height="284" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585030167349" />
+    <state width="723" height="282" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585203204683" />
     <state x="22" y="58" key="SettingsEditor" timestamp="1584339758181">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="2435" y="260" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579276369687" />
     <state x="2917" y="219" key="SettingsEditor/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1583660183833" />
     <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584339758181" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1585014503229">
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1585271412408">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1584358799028" />
     <state x="2693" y="134" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584879516937" />
-    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585014503229" />
+    <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585271412408" />
     <state x="499" y="191" key="extract.method.dialog" timestamp="1580220156942">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -491,18 +500,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
-          <line>59</line>
+          <line>8</line>
           <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
-          <line>118</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/castle_2234/Main.java</url>
-          <line>129</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/drunken_sangbum_6359/Main.java</url>

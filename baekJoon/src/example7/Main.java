@@ -4,25 +4,25 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
         Scanner scin = new Scanner(System.in);
-
         int n = scin.nextInt();
-
-
-        for (int a = 1; a <= n; a++) {
-            for (int c = 1; c <= n - a; c++) {
-                System.out.print(" ");
+        int count = 0;
+        int result = 0;
+        for (int i = 1; i <= n; i++) {
+            String A = scin.next();
+            for (int j = 0; j < A.length(); j++) {
+                char a = A.charAt(j);
+                if (a == 'O') {
+                    count++;
+                    //result += count;
+                } else {
+                    count = 0;
+                }
+                result += count;
             }
-
-
-            for (int b = 1; b <= a; b ++) {
-                System.out.print("*");
-            }
-            System.out.println();
-
-
+            System.out.println(result);
+            result = 0;
+            count = 0;
         }
-
     }
 }
