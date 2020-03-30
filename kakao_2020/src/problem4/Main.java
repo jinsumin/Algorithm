@@ -3,7 +3,7 @@ package problem4;
 import java.util.HashMap;
 
 /**
- * Created by Crab on 2020-03-29.
+ * Created by Crab on 2020-03-30.
  */
 public class Main {
     public static void main(String[] args) {
@@ -53,7 +53,7 @@ class Solution {
                 answer.append(person.middleName).append(" ");
             }
             answer.append(person.lastName).append(" ");
-            answer.append("<").append(person.emailAddress.toLowerCase()).append("@").append(C).append(".com>; ");
+            answer.append("<").append(person.emailAddress.toLowerCase()).append("@").append(C.toLowerCase()).append(".com>; ");
         }
         return answer.substring(0, answer.length() - 2);
     }
