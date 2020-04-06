@@ -1,5 +1,6 @@
 package problem5;
 
+
 /**
  * Created by Crab on 2020-03-28.
  */
@@ -12,31 +13,23 @@ public class Main {
     }
 }
 
-
 class Solution {
     public int solution(int[] stones, int k) {
-        int answer = 0;
-        int count = 0;
-        int number = Integer.MAX_VALUE;
-        while (number > 0) {
-            for (int i = 0; i < stones.length; i++) {
-                if (stones[i] <= k) {
-                    count++;
-                    //System.out.println("count : " + count);
-                } else {
-                    count = 0;
-                }
-                if (count >= k) {
-                    answer += k;
-                    return answer;
+        int answer = Integer.MAX_VALUE;
+        for (int i = 0; i <= stones.length - k; i++) {
+            int temp = i;
+            int stone = stones[i];
+            for (int j = i; j < i + k; j++) {
+                if (stones[j] > stone) {
+                    stone = stones[j];
+                    temp = j;
                 }
             }
-            number --;
-            answer ++;
-            for (int i = 0; i < stones.length; i ++) {
-                stones[i] --;
+            if (answer > stone) {
+                answer = stone;
             }
-            //System.out.println("k : " + k);
+            i = temp;
+
         }
         return answer;
     }
