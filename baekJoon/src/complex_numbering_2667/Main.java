@@ -18,7 +18,8 @@ public class Main {
         int sizeOfMap = Integer.parseInt(stringTokenizer.nextToken());
         int[][] map = new int[sizeOfMap][sizeOfMap];
         for (int i = 0; i < sizeOfMap; i++) {
-            String str = bufferedReader.readLine();
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            String str = stringTokenizer.nextToken();
             for (int j = 0; j < sizeOfMap; j++) {
                 map[i][j] = Integer.parseInt(String.valueOf(str.charAt(j)));
             }
@@ -44,24 +45,29 @@ class Solution {
     }
 
     private int number = 0;
-    private boolean[][] visited;
     private List<Integer> list = new LinkedList<>();
+    private int count = 0;
 
     public void solution(int[][] map, int sizeOfMap) {
-        visited = new boolean[sizeOfMap][sizeOfMap];
+        boolean[][] visited = new boolean[sizeOfMap][sizeOfMap];
         for (int i = 0; i < sizeOfMap; i++) {
             for (int j = 0; j < sizeOfMap; j++) {
-                if (!visited[i][j]) {
-                    number++;
-                    Node currentNode = new Node(i, j);
-                    list.add(dfs(map, sizeOfMap, currentNode, 1));
+                if (map[i][j] == 1) {
+                    if (!visited[i][j]) {
+                        number++;
+                        Node currentNode = new Node(i, j);
+                        visited[i][j] = true;
+                        dfs(map, visited, sizeOfMap, currentNode);
+                        list.add(count);
+                        count = 0;
+                    }
                 }
             }
         }
         Collections.sort(list);
     }
 
-    private int dfs(int[][] map, int sizeOfMap, Node currentNode, int sum) {
+    private void dfs(int[][] map, boolean[][] visited, int sizeOfMap, Node currentNode) {
         for (int i = 0; i < 4; i++) {
             Node nextNode = new Node(currentNode.r + MOVE_R[i], currentNode.c + MOVE_C[i]);
             if (nextNode.r < 0 || nextNode.c < 0 || nextNode.r >= sizeOfMap || nextNode.c >= sizeOfMap) {
@@ -73,9 +79,10 @@ class Solution {
             if (visited[nextNode.r][nextNode.c]) {
                 continue;
             }
-            sum += dfs(map, sizeOfMap, nextNode, sum + 1);
+            visited[nextNode.r][nextNode.c] = true;
+            dfs(map, visited, sizeOfMap, nextNode);
         }
-        return sum;
+        count ++;
     }
 
     public void printNumberOfComplex() {
@@ -84,7 +91,7 @@ class Solution {
 
     public void printCountOfComplexes() {
         for (int i = 0; i < list.size(); i++) {
-            System.out.print(list.get(i) + " ");
+            System.out.println(list.get(i));
         }
     }
 }
