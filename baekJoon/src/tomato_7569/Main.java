@@ -65,6 +65,7 @@ class Solution {
             }
         }
         while (!queue.isEmpty()) {
+            boolean flag = false;
             int size = queue.size();
             for (int s = 0; s < size; s ++) {
                 Node currentNode = queue.poll();
@@ -82,13 +83,17 @@ class Solution {
                     map[nextNode.i][nextNode.j][nextNode.k] = 1;
                     visited[nextNode.i][nextNode.j][nextNode.k] = true;
                     queue.offer(nextNode);
+                    flag = true;
                 }
             }
-            date ++;
+            if (flag) {
+                date++;
+            }
+            //System.out.println("date : " + date);
+            //printMap(map, n, m, h);
         }
-        //printMap(map, n, m, h);
         if (isAllTomatoRiped(map, n, m, h)) {
-            return date - 1;
+            return date;
         }
         return -1;
     }

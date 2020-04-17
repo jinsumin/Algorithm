@@ -1,102 +1,145 @@
 package snake_3190;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 /**
- * Created by REMI on 2020-01-20.
+ * Created by Crab on 2020-04-11.
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int sizeOfBoard = Integer.parseInt(stringTokenizer.nextToken());
+        stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int numberOfApple = Integer.parseInt(stringTokenizer.nextToken());
+        Node[] apples = new Node[numberOfApple];
+        for (int i = 0; i < numberOfApple; i++) {
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            int r = Integer.parseInt(stringTokenizer.nextToken());
+            int c = Integer.parseInt(stringTokenizer.nextToken());
+            apples[i] = new Node(r - 1, c - 1);
+        }
+        stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int numberOfDirectionTransformation = Integer.parseInt(stringTokenizer.nextToken());
+        Direction[] directions = new Direction[numberOfDirectionTransformation];
+        for (int i = 0; i < numberOfDirectionTransformation; i++) {
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            int time = Integer.parseInt(stringTokenizer.nextToken());
+            char direction = stringTokenizer.nextToken().charAt(0);
+            directions[i] = new Direction(time, direction);
+        }
         Dummy dummy = new Dummy();
-        dummy.play();
-        System.out.println(dummy.countOfPlayedTime());
+        System.out.println(dummy.dummy(sizeOfBoard, apples, directions));
+    }
+}
+
+class Node {
+    int r, c;
+
+    public Node(int r, int c) {
+        this.r = r;
+        this.c = c;
+    }
+}
+
+class Direction {
+    int time;
+    char direction;
+
+    public Direction(int time, char direction) {
+        this.time = time;
+        this.direction = direction;
     }
 }
 
 class Dummy {
-    private static class Route{
-        private int time;
-        private char direction;
-        public Route(int time, char direction) {
-            this.time = time;
-            this.direction = direction;
-        }
-    }
-    private static Scanner scanner = new Scanner(System.in);
-    private static int[][] map;
-    private static int sizeOfBoard;
-    private static int numberOfApple;
-    private static Queue<Route> routeOfSnake = new LinkedList<Route>();
-    private static int gameTime = 0;
-    private static int headDirection;
-    private static int headPosOfX = 1;
-    private static int headPosOfY = 1;
-    private static int tailPosOfX = 1;
-    private static int tailPosOfY = 1;
-    private static final int[] dx = {0, 1, 0, -1};    // E, S, W, N
-    private static final int[] dy = {1, 0, -1, 0};
-    private static final int DIRECTION_TO_EAST = 0;
-    private static final int DIRECTION_TO_SOUTH = 1;
-    private static final int DIRECTION_TO_WEST = 2;
-    private static final int DIRECTION_TO_NORTH = 3;
-    private static final int APPLE = 100;
-    private static final int WALL = -1;
+    private static final int SNAKE = 1;
+    private static final int APPLE = 2;
+    private static final int[] MOVE_R = {1, 0, -1, 0};
+    private static final int[] MOVE_C = {0, 1, 0, -1};
 
-    public void play() {
-        initGame();
-        settingApples();
-        settingRoutes();
-        while(!routeOfSnake.isEmpty()) {
-            if(routeOfSnake.peek().time == gameTime) {
-                if(routeOfSnake.peek().direction == 'L') {
-                    headDirection = (headDirection + 3) % 3;
-                    routeOfSnake.poll();
-                }else if(routeOfSnake.peek().direction == 'D') {
-                    headDirection = (headDirection + 1) % 3;
-                    routeOfSnake.poll();
+    private int[][] map;
+    private LinkedList<Node> snake = new LinkedList<>();
+    private int g_time = 0;
+    private char currentDirection = 'E';
+
+    public int dummy(int sizeOfBoard, Node[] apples, Direction[] directions) {
+        map = new int[sizeOfBoard][sizeOfBoard];
+        putAppleToMap(apples);
+        Node startNode = new Node(0, 0);
+        snake.offerFirst(startNode);
+        map[snake.get(0).r][snake.get(0).c] = SNAKE;
+        int index = 0;
+        while (true) {
+            g_time++;
+            Node nextNode;
+            if (currentDirection == 'E') {
+                nextNode = new Node(snake.getFirst().r + MOVE_R[1], snake.getFirst().c + MOVE_C[1]);
+            } else if (currentDirection == 'W') {
+                nextNode = new Node(snake.getFirst().r + MOVE_R[3], snake.getFirst().c + MOVE_C[3]);
+            } else if (currentDirection == 'S') {
+                nextNode = new Node(snake.getFirst().r + MOVE_R[0], snake.getFirst().c + MOVE_C[0]);
+            } else {
+                nextNode = new Node(snake.getFirst().r + MOVE_R[2], snake.getFirst().c + MOVE_C[2]);
+            }
+            if (nextNode.r < 0 || nextNode.c < 0 || nextNode.r >= sizeOfBoard || nextNode.c >= sizeOfBoard) {
+                return g_time;
+            }
+            if (map[nextNode.r][nextNode.c] == SNAKE) {
+                return g_time;
+            }
+            if (map[nextNode.r][nextNode.c] != APPLE) {
+                Node tailNode = snake.pollLast();
+                map[tailNode.r][tailNode.c] = 0;
+            }
+            map[nextNode.r][nextNode.c] = SNAKE;
+            snake.offerFirst(nextNode);
+            Direction temp = directions[index];
+            if (g_time == temp.time) {
+                if (temp.direction == 'L') {
+                    if (currentDirection == 'E') {
+                        currentDirection = 'N';
+                    } else if (currentDirection == 'W') {
+                        currentDirection = 'S';
+                    } else if (currentDirection == 'S') {
+                        currentDirection = 'E';
+                    } else {
+                        currentDirection = 'W';
+                    }
+                } else {
+                    if (currentDirection == 'E') {
+                        currentDirection = 'S';
+                    } else if (currentDirection == 'W') {
+                        currentDirection = 'N';
+                    } else if (currentDirection == 'S') {
+                        currentDirection = 'W';
+                    } else {
+                        currentDirection = 'E';
+                    }
+                }
+                if (index != directions.length - 1) {
+                    index++;
                 }
             }
-            if(map[headPosOfX + dx[headDirection]][headPosOfY + dy[headDirection]] == APPLE) {
-                map[tailPosOfX][tailPosOfY] = 1;
-            }else {
-                map[tailPosOfX][tailPosOfY] = 0;
-                //tailPosOfX +=
+        }
+    }
+
+    private void putAppleToMap(Node[] apples) {
+        for (int i = 0; i < apples.length; i++) {
+            map[apples[i].r][apples[i].c] = APPLE;
+        }
+    }
+
+    private void printMap(int size) {
+        for (int i = 0; i < size; i ++) {
+            for (int j = 0; j < size; j ++) {
+                System.out.print(map[i][j] + " ");
             }
-
-            gameTime ++;
+            System.out.println();
         }
-    }
-
-    private void initGame() {
-        sizeOfBoard = scanner.nextInt();
-        numberOfApple = scanner.nextInt();
-        map = new int[sizeOfBoard + 2][sizeOfBoard + 2];
-        Arrays.fill(map, 0);
-        for(int i = 0; i < sizeOfBoard + 2; i ++) {
-            map[i][0] = WALL;
-            map[0][i] = WALL;
-            map[i][sizeOfBoard + 2] = WALL;
-            map[sizeOfBoard + 2][i] = WALL;
-        }
-        headDirection = DIRECTION_TO_EAST;
-        map[headPosOfX][headPosOfY] = 1;
-    }
-
-    private void settingApples() {
-        for(int i = 0; i < numberOfApple; i ++) {
-            map[scanner.nextInt()][scanner.nextInt()] = APPLE;
-        }
-    }
-
-    private void settingRoutes() {
-        int numberOfTurnover = scanner.nextInt();
-        for(int i = 0; i < numberOfTurnover; i ++) {
-            Route route = new Route(scanner.nextInt(), scanner.next().charAt(0));
-            routeOfSnake.offer(route);
-        }
-    }
-
-    public int countOfPlayedTime() {
-        return gameTime;
+        System.out.println();
     }
 }
