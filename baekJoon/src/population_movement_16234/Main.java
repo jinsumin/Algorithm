@@ -1,112 +1,132 @@
 package population_movement_16234;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
 
-/**
- * Created by REMI on 2020-02-01.
- */
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();  // 땅의 크기 n X n
-        int l = scanner.nextInt();  // 인구차이 최소 l
-        int r = scanner.nextInt();  // 인구차이 최대 r
-        int[][] a = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                a[i][j] = scanner.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int N = Integer.parseInt(stringTokenizer.nextToken());
+        int L = Integer.parseInt(stringTokenizer.nextToken());
+        int R = Integer.parseInt(stringTokenizer.nextToken());
+        int[][] map = new int[N][N];
+        for (int i = 0; i < N; i++) {
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            for (int j = 0; j < N; j++) {
+                map[i][j] = Integer.parseInt(stringTokenizer.nextToken());
             }
         }
-        Solution sol = new Solution();
-        sol.solution(a, n, l, r);
+        Solution solution = new Solution();
+        System.out.println(solution.solution(map, L, R));
     }
 }
 
 class Solution {
-    private static int sizeOfMap, left, right;
-    private static final int RIGHT = 0;
-    private static final int[] dy = {0, -1, 0, 1};
-    private static final int[] dx = {-1, 0, 1, 0};
+    private static final int[] MOVE_R = {1, 0, -1, 0};
+    private static final int[] MOVE_C = {0, 1, 0, -1};
 
-    private class Pair {
+    private static class Node {
         int r, c;
 
-        public Pair(int r, int c) {
+        public Node(int r, int c) {
             this.r = r;
             this.c = c;
         }
     }
 
-    public int solution(int[][] a, int n, int l, int r) {
-        sizeOfMap = n;
-        left = l;
-        right = r;
-        int movementCount = 0;
-        while (populationDifferenceCheck(a)) {
-            boolean[][] visited = new boolean[n][n];
-            Arrays.fill(visited, false);
-            setUnion(a, visited, n);
-            movementCount++;
-        }
-        return movementCount;
-    }
+    private boolean flag = false;
+    private boolean[][] visited;
+    private int[][] union;
+    private int sum = 0;
+    private int numberOfNations = 0;
+    private ArrayList<Node> arrayList = new ArrayList<>();
 
-    private boolean populationDifferenceCheck(int[][] a) {
-        for (int i = 0; i < sizeOfMap; i++) {
-            for (int j = 0; j < sizeOfMap; j++) {
-                for (int k = 0; k < 4; k++) {
-                    int ny = i + dy[k];
-                    int nx = j + dx[k];
-                    if (ny >= 0 && nx >= 0 && ny < sizeOfMap && nx < sizeOfMap) {
-                        if (Math.abs(a[i][j] - a[ny][nx]) >= left && Math.abs(a[i][j] - a[ny][nx]) <= right) {
-                            return true;
+    public int solution(int[][] map, int l, int r) {
+        int count = 0;
+        visited = new boolean[map.length][map[0].length];
+        union = new int[map.length][map[0].length];
+        while (true) {
+            flag = false;
+            for (int i = 0; i < map.length; i ++) {
+                Arrays.fill(visited[i], false);
+                Arrays.fill(union[i], 0);
+            }
+            int number = 1;
+            for (int i = 0; i < map.length; i++) {
+                for (int j = 0; j < map[0].length; j++) {
+                    if (!visited[i][j]) {
+                        Node currentNode = new Node(i, j);
+                        dfs(map, visited, union, currentNode, l, r, number);
+                        if (flag) {
+                            number++;
+                            for (int s = 0; s < arrayList.size(); s ++) {
+                                Node temp = arrayList.get(s);
+                                map[temp.r][temp.c] = sum / numberOfNations;
+                            }
+                            sum = 0;
+                            numberOfNations = 0;
+                            arrayList.clear();
                         }
                     }
                 }
             }
+            if (number == 1) {
+                break;
+            }
+            //movePopulation(map, union, number);
+            count++;
         }
-        return false;
+        return count;
     }
 
-    public void setUnion(int[][] a, boolean[][] visited, int n) {
-        List<Pair> list;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (!visited[i][j]) {
-                    list = new LinkedList<>();
-                    list.add(new Pair(i, j));
-                    int unionPopulation = findUnion(a, visited, list, n, i, j, 0);
-                    if (list.size() > 1) {
-                        movePopulation(a, list, unionPopulation);
+    private void dfs(int[][] map, boolean[][] visited, int[][] union, Node currentNode, int l, int r, int number) {
+        for (int i = 0; i < 4; i++) {
+            Node nextNode = new Node(currentNode.r + MOVE_R[i], currentNode.c + MOVE_C[i]);
+            if (nextNode.r < 0 || nextNode.c < 0 || nextNode.r >= map.length || nextNode.c >= map[0].length) {
+                continue;
+            }
+            if (visited[nextNode.r][nextNode.c]) {
+                continue;
+            }
+            if (Math.abs(map[currentNode.r][currentNode.c] - map[nextNode.r][nextNode.c]) < l
+                    || Math.abs(map[currentNode.r][currentNode.c] - map[nextNode.r][nextNode.c]) > r) {
+                continue;
+            }
+            visited[nextNode.r][nextNode.c] = true;
+            union[nextNode.r][nextNode.c] = number;
+            dfs(map, visited, union, nextNode, l, r, number);
+            flag = true;
+            sum += map[nextNode.r][nextNode.c];
+            //System.out.println("number : " + number + " sum : " + sum);
+            numberOfNations ++;
+            arrayList.add(nextNode);
+        }
+    }
+
+    private void movePopulation(int[][] map, int[][] union, int number) {
+        while (number > 0) {
+            int sum = 0;
+            int count = 0;
+            for (int i = 0; i < map.length; i++) {
+                for (int j = 0; j < map[0].length; j++) {
+                    if (union[i][j] == number) {
+                        sum += map[i][j];
+                        count++;
+                        System.out.println("number : " + number + " sum : " + sum);
                     }
                 }
             }
-        }
-    }
-
-    private int findUnion(int[][] a, boolean[][] visited, List<Pair> list, int n, int r, int c, int unionPopulation) {
-        visited[r][c] = true;
-        unionPopulation = a[r][c];
-        for(int k = 0; k < 4; k ++) {
-            int nr = r + dy[k];
-            int nc = c + dx[k];
-            if(nr >= 0 && nc >= 0 && nr < n && nc < n) {
-                if (!visited[nr][nc] && Math.abs(a[r][c] - a[nr][nc]) >= left && Math.abs(a[r][c] - a[nr][nc]) >= right) {
-                    list.add(new Pair(nr, nc));
-                    unionPopulation += findUnion(a, visited, list, n, nr, nc, unionPopulation);
+            for (int i = 0; i < map.length; i++) {
+                for (int j = 0; j < map[0].length; j++) {
+                    if (union[i][j] == number) {
+                        map[i][j] = sum / count;
+                    }
                 }
             }
-        }
-        return unionPopulation;
-    }
-
-    private void movePopulation(int[][] a, List<Pair> list, int unionPopulation) {
-        int index = 0;
-        while(list.isEmpty()) {
-            int r = list.get(index).r;
+            number--;
         }
     }
 }
