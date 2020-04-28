@@ -3,16 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/META-INF/baekJoon.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/META-INF/baekJoon.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Solution$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/castle_2234/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/example7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/example7/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/ladder_manipulation_15684/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/castle_2234/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/castle_2234/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/example7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/example7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/ladder_manipulation_15684/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/ladder_manipulation_15684/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Escape$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Escape$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Escape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Escape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/escape_3055/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/exam_supervisor_13458/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/exam_supervisor_13458/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/hide_and_seek_1697/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/hide_and_seek_1697/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/lotto_6603/Lotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/lotto_6603/Lotto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/lotto_6603/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/lotto_6603/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/numerical_square_1051/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/numerical_square_1051/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/numerical_square_1051/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/numerical_square_1051/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/escape_3055/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/escape_3055/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/hide_and_seek_1697/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/hide_and_seek_1697/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/lotto_6603/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/lotto_6603/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/numerical_square_1051/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/numerical_square_1051/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/printer_queue_1966/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/printer_queue_1966/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../baekJoon/src/two_dimensional_array_operation_17140/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/two_dimensional_array_operation_17140/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +43,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -134,18 +142,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -190,11 +186,12 @@
       <workItem from="1582680457659" duration="22000" />
       <workItem from="1585271438316" duration="15528000" />
       <workItem from="1585371647806" duration="129000" />
+      <workItem from="1588039066569" duration="448000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="74" key="#Inspections" timestamp="1579572821987">

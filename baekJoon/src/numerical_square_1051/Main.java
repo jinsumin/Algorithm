@@ -1,27 +1,49 @@
 package numerical_square_1051;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
- * Created by REMI on 2020-01-29.
+ * Created by Crab on 2020-04-24.
  */
 public class Main {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int n = Integer.parseInt(stringTokenizer.nextToken());
+        int m = Integer.parseInt(stringTokenizer.nextToken());
+        int[][] map = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            String str = stringTokenizer.nextToken();
+            for (int j = 0; j < m; j++) {
+                map[i][j] = str.charAt(j);
+            }
+        }
+        Solution solution = new Solution();
+        System.out.println(solution.solution(map));
     }
 }
 
 class Solution {
-    private static int[][] memo;
-    public void solution() {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        int m = scanner.nextInt();
-        memo = new int[n][m];
-        for(int i = 0; i < n; i ++) {
-            for(int j = 0; j < m; j ++) {
-                memo[i][j] = scanner.nextInt();
+    public int solution(int[][] map) {
+        int maxSize = Math.min(map.length, map[0].length);
+        while (maxSize > 0) {
+            for (int i = 0; i <= map.length - maxSize; i++) {
+                for (int j = 0; j <= map[0].length - maxSize; j++) {
+                    if (map[i][j] == map[i + maxSize - 1][j]) {
+                        if (map[i][j] == map[i][j + maxSize - 1]) {
+                            if (map[i][j] == map[i + maxSize - 1][j + maxSize - 1]) {
+                                return maxSize * maxSize;
+                            }
+                        }
+                    }
+                }
             }
+            maxSize--;
         }
+        return 0;
     }
 }

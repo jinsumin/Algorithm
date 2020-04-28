@@ -1,19 +1,24 @@
 package lotto_6603;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 /**
- * Created by REMI on 2020-02-20.
+ * Created by Crab on 2020-04-27.
  */
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer;
         while (true) {
-            int number = scanner.nextInt();
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            int number = Integer.parseInt(stringTokenizer.nextToken());
             if (number == 0) break;
             int[] numbers = new int[number];
             for (int i = 0; i < number; i++) {
-                numbers[i] = scanner.nextInt();
+                numbers[i] = Integer.parseInt(stringTokenizer.nextToken());
             }
             Lotto lotto = new Lotto();
             lotto.play(numbers);
@@ -35,7 +40,6 @@ class Lotto {
             print(numbers, checked);
             return;
         }
-
         for (int i = index; i < numbers.length; i++) {
             if (!checked[i]) {
                 checked[i] = true;
@@ -46,9 +50,10 @@ class Lotto {
     }
 
     private void print(int[] numbers, boolean[] checked) {
+        StringBuilder stringBuilder = new StringBuilder();
         for (int i = 0; i < numbers.length; i++) {
             if (checked[i]) {
-                System.out.print(numbers[i] + " ");
+                stringBuilder.append(numbers[i] + " ");
             }
         }
         System.out.println();

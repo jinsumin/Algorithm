@@ -1,20 +1,25 @@
 package escape_3055;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 /**
- * Created by REMI on 2020-02-24.
+ * Created by Crab on 2020-04-23.
  */
 public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int r = scanner.nextInt();
-        int c = scanner.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+        int r = Integer.parseInt(stringTokenizer.nextToken());
+        int c = Integer.parseInt(stringTokenizer.nextToken());
         char[][] map = new char[r][c];
         for (int i = 0; i < r; i++) {
-            String str = scanner.next();
+            stringTokenizer = new StringTokenizer(bufferedReader.readLine());
+            String str = stringTokenizer.nextToken();
             for (int j = 0; j < c; j++) {
                 map[i][j] = str.charAt(j);
             }
@@ -133,7 +138,7 @@ class Escape {
         }
     }
 
-    private class Node {
+    private static class Node {
         int r, c;
 
         public Node(int r, int c) {

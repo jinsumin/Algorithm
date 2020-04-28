@@ -8,7 +8,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 /**
- * Created by Crab on 2020-04-03.
+ * Created by Crab on 2020-04-27.
  */
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -22,14 +22,10 @@ public class Main {
 }
 
 class Solution {
-    private static final int MOVE_BACK = 1;
-    private static final int MOVE_FRONT = 2;
-    private static final int MOVE_JUMP = 3;
-
     private int time = 0;
 
     public int solution(int positionA, int positionB) {
-        boolean[] visited = new boolean[100001];
+        boolean[] visited = new boolean[200001];
         bfs(visited, positionA, positionB);
         return time;
     }
@@ -39,34 +35,35 @@ class Solution {
         queue.offer(positionA);
         visited[positionA] = true;
         while(!queue.isEmpty()) {
-            int nextPositionA = queue.poll();
             int size = queue.size();
-            time++;
             for (int s = 0; s < size; s++) {
-                if (nextPositionA == positionB) {
+                int currentPositionA = queue.poll();
+                if (currentPositionA == positionB) {
                     return;
                 }
-                for (int i = 1; i <= 3; i++) {
-                    if (i == 1) {
+                for (int i = 0; i < 3; i++) {
+                    int nextPositionA = currentPositionA;
+                    if (i == 0) {
                         nextPositionA -= 1;
-                    } else if (i == 2) {
+                    } else if (i == 1) {
                         nextPositionA += 1;
                     } else {
                         nextPositionA *= 2;
                     }
-                    if (nextPositionA > 100000) {
+                    if (nextPositionA < 0) {
                         continue;
                     }
-                    if (nextPositionA < 0) {
+                    if (nextPositionA > 200000) {
                         continue;
                     }
                     if (visited[nextPositionA]) {
                         continue;
                     }
-                    visited[nextPositionA] = true;
                     queue.offer(nextPositionA);
+                    visited[nextPositionA] = true;
                 }
             }
+            time++;
         }
     }
 }
