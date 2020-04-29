@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Escape$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Escape$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Escape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Escape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/escape_3055/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/exam_supervisor_13458/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/exam_supervisor_13458/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/hide_and_seek_1697/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/hide_and_seek_1697/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/lotto_6603/Lotto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/lotto_6603/Lotto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/lotto_6603/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/lotto_6603/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/numerical_square_1051/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/numerical_square_1051/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/numerical_square_1051/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/numerical_square_1051/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/escape_3055/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/escape_3055/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hide_and_seek_1697/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hide_and_seek_1697/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lotto_6603/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lotto_6603/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/numerical_square_1051/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/numerical_square_1051/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printer_queue_1966/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/printer_queue_1966/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/two_dimensional_array_operation_17140/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/two_dimensional_array_operation_17140/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/hyundai2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,20 +70,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number_of_words_1152.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number_of_words_1152.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="constant_2908.Main" />
       <module name="baekJoon" />
@@ -144,11 +111,24 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="iron_bar_10799.Main" />
+      <option name="MAIN_CLASS_NAME" value="efficient_hacking_1325.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="iron_bar_10799.*" />
+          <option name="PATTERN" value="efficient_hacking_1325.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="longest_increasing_partial_sequence_11053.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="longest_increasing_partial_sequence_11053.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -317,6 +297,8 @@
       <workItem from="1587950488768" duration="16439000" />
       <workItem from="1588036674426" duration="706000" />
       <workItem from="1588037573424" duration="10691000" />
+      <workItem from="1588060086438" duration="102000" />
+      <workItem from="1588124541056" duration="10553000" />
     </task>
     <servers />
   </component>
@@ -353,50 +335,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588054283190" />
-    <state width="723" height="198" key="GridCell.Tab.0.bottom" timestamp="1588060061460">
+    <state width="1493" height="67" key="GridCell.Tab.0.bottom" timestamp="1588141672249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588060061460" />
-    <state width="723" height="198" key="GridCell.Tab.0.center" timestamp="1588060061460">
+    <state width="1493" height="67" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588141672249" />
+    <state width="1493" height="67" key="GridCell.Tab.0.center" timestamp="1588141672248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588060061460" />
-    <state width="723" height="198" key="GridCell.Tab.0.left" timestamp="1588060061460">
+    <state width="1493" height="67" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588141672248" />
+    <state width="1493" height="67" key="GridCell.Tab.0.left" timestamp="1588141672248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
-    <state width="723" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588060061460" />
-    <state width="723" height="198" key="GridCell.Tab.0.right" timestamp="1588060061460">
+    <state width="1493" height="67" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588141672248" />
+    <state width="1493" height="67" key="GridCell.Tab.0.right" timestamp="1588141672249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588060061460" />
-    <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1588060061456">
+    <state width="1493" height="67" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588141672249" />
+    <state width="723" height="260" key="GridCell.Tab.1.bottom" timestamp="1588126877742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="723" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588060061456" />
-    <state width="723" height="260" key="GridCell.Tab.1.center" timestamp="1588060061456">
+    <state width="723" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588126877742" />
+    <state width="723" height="260" key="GridCell.Tab.1.center" timestamp="1588126877742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="723" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588060061456" />
-    <state width="723" height="260" key="GridCell.Tab.1.left" timestamp="1588060061456">
+    <state width="723" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588126877742" />
+    <state width="723" height="260" key="GridCell.Tab.1.left" timestamp="1588126877742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="723" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588060061456" />
-    <state width="723" height="260" key="GridCell.Tab.1.right" timestamp="1588060061456">
+    <state width="723" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588126877742" />
+    <state width="723" height="260" key="GridCell.Tab.1.right" timestamp="1588126877742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="305" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1579599865257" />
-    <state width="723" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588060061456" />
+    <state width="723" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588126877742" />
     <state x="22" y="58" key="SettingsEditor" timestamp="1588052262297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
