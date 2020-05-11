@@ -30,43 +30,25 @@ public class Main {
 
 class Solution {
     public int solution(int[] documents, int m) {
-        List<Documents> list = new LinkedList<>();
+        int answer = 0;
         Queue<Documents> queue = new LinkedList<>();
-        Queue<Documents> queue2 = new LinkedList<>();
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
         for (int i = 0; i < documents.length; i++) {
             Documents document = new Documents(i + 1, documents[i]);
-            list.add(document);
             queue.offer(document);
+            priorityQueue.offer(document.importance);
         }
-        list.sort(new Comparator<Documents>() {
-            @Override
-            public int compare(Documents o1, Documents o2) {
-                if (o1.importance < o2.importance) {
-                    return 1;
-                } else if (o1.importance == o2.importance) {
-                    return 0;
-                } else {
-                    return -1;
-                }
-            }
-        });
-        for (int i = 0; i < documents.length; i++) {
-            queue2.offer(list.get(i));
-        }
-        int answer = 0;
-        while (!queue.isEmpty()) {
-            assert queue.peek() != null;
-            assert queue2.peek() != null;
-            if (queue2.peek().importance == queue.peek().importance) {
+        while(!queue.isEmpty()) {
+            Documents tempDocuments = queue.poll();
+            assert tempDocuments != null;
+            if (priorityQueue.peek() == tempDocuments.importance) {
+                priorityQueue.poll();
                 answer++;
-                if (queue.peek().number == m + 1) {
+                if (tempDocuments.number == m + 1) {
                     break;
                 }
-                queue.poll();
-                queue2.poll();
             } else {
-                Documents temp = queue.poll();
-                queue.offer(temp);
+                queue.offer(tempDocuments);
             }
         }
         return answer;

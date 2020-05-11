@@ -55,28 +55,36 @@ class Solution {
      */
 
     public String solution(int n, int k, String number) {
-        StringBuilder stringBuilder = new StringBuilder(number);
+        ArrayList<Character> arrayList = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            arrayList.add(number.charAt(i));
+        }
+        //System.out.println(arrayList);
         int index = 0;
         while (k >= 0) {
-            if (index > n - 2) {
+            if (index > arrayList.size() - 2) {
                 break;
             }
-            char first = stringBuilder.charAt(index);
-            char second = stringBuilder.charAt(index + 1);
-            if ((int)second > (int)first) {
-                stringBuilder.replace(index, index + 1, "X");
+            char first = arrayList.get(index);
+            char second = arrayList.get(index + 1);
+            //System.out.println("first : " + first);
+            //System.out.println("second : " + second);
+            if (second > first) {
+                arrayList.remove(index);
                 k--;
                 //System.out.println(arrayList);
             } else {
                 index++;
             }
         }
-        StringBuilder answer = new StringBuilder();
-        for (int i = 0; i < n; i ++) {
-            if (stringBuilder.charAt(i) != 'X') {
-                answer.append(number.charAt(i));
-            }
+        StringBuilder stringBuilder = new StringBuilder();
+        int size = arrayList.size();
+        if (size == 0) {
+            return "0";
         }
-        return answer.toString();
+        for (Character character : arrayList) {
+            stringBuilder.append(character);
+        }
+        return String.valueOf(stringBuilder);
     }
 }

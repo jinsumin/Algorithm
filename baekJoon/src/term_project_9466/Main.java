@@ -3,8 +3,6 @@ package term_project_9466;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 /**
@@ -51,7 +49,6 @@ class Solution {
             }
             return count - check[i];
         }
-
         check[i] = count;
         startNode[i] = start;
         return dfs(students, students[i], count + 1, start);
