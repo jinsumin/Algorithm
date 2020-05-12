@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../programmers/src/kakao_2020_internship/problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/kakao_2020_internship/problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/kakao_2020_internship/problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/kakao_2020_internship/problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level1/dart_game_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level1/secret_map_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level2/cache_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level2/compression_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level2/file_name_sorting_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level2/friends_four_blocks_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../programmers/src/level2/the_song_just_now_kakao_2018/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/make_large_2812/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/make_large_2812/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/printer_queue_1966/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/term_project_9466/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/term_project_9466/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/term_project_9466/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/term_project_9466/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/make_large_2812/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/make_large_2812/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/printer_queue_1966/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/printer_queue_1966/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/term_project_9466/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/term_project_9466/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,20 +70,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="group_word_checker_1316.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="group_word_checker_1316.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="room_number_1475.Main" />
       <module name="baekJoon" />
@@ -144,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kevin_bacons_six_step_law_1389.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kevin_bacons_six_step_law_1389.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="similiar_word_2607.Main" />
       <module name="baekJoon" />
@@ -159,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -326,6 +305,8 @@
       <workItem from="1588559856554" duration="8446000" />
       <workItem from="1588643863709" duration="120000" />
       <workItem from="1589175372641" duration="5701000" />
+      <workItem from="1589184384213" duration="560000" />
+      <workItem from="1589250797093" duration="8627000" />
     </task>
     <servers />
   </component>
@@ -358,30 +339,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588643982263" />
-    <state width="724" height="312" key="GridCell.Tab.0.bottom" timestamp="1589184298770">
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom" timestamp="1589264525957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="724" height="312" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589184298770" />
-    <state width="724" height="312" key="GridCell.Tab.0.center" timestamp="1589184298769">
+    <state width="1493" height="97" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589264525957" />
+    <state width="1493" height="97" key="GridCell.Tab.0.center" timestamp="1589264525957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="724" height="312" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589184298769" />
-    <state width="724" height="312" key="GridCell.Tab.0.left" timestamp="1589184298769">
+    <state width="1493" height="97" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589264525957" />
+    <state width="1493" height="97" key="GridCell.Tab.0.left" timestamp="1589264525957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193755" />
     <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
-    <state width="724" height="312" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589184298769" />
-    <state width="724" height="312" key="GridCell.Tab.0.right" timestamp="1589184298770">
+    <state width="1493" height="97" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589264525957" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right" timestamp="1589264525957">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="206" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@0.0.1536.824" timestamp="1583462193756" />
     <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="724" height="312" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589184298770" />
+    <state width="1493" height="97" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589264525957" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1588561705955">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
