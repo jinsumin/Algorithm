@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kakao_2020_internship/problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakao_2020_internship/problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakao_2020_internship/problem3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kakao_2020_internship/problem4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level1/dart_game_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level1/secret_map_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/cache_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/compression_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/file_name_sorting_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/friends_four_blocks_kakao_2018/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/level2/the_song_just_now_kakao_2018/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level1/uncompleted_player/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/camouflage/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/functional_development/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/iron_rod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/list_of_telephone_numbers/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/noodle_factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/printer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/stock_price/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/tower/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level3/best_album/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level3/travel_route/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/make_large_2812/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/make_large_2812/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution$Documents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/printer_queue_1966/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/term_project_9466/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/term_project_9466/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/term_project_9466/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/term_project_9466/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/make_large_2812/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/make_large_2812/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/printer_queue_1966/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/printer_queue_1966/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/src/term_project_9466/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/term_project_9466/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Solution$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Solution$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmers/kakao_2020_internship/problem4/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/level3/best_elbum/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/level3/best_elbum/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../baekJoon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,13 +66,13 @@
       <recent name="level3.disk_controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao_2020_internship.problem4.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.printer.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kakao_2020_internship.problem4.*" />
+          <option name="PATTERN" value="level2.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level2.file_name_sorting_kakao_2018.Main" />
+      <option name="MAIN_CLASS_NAME" value="level3.travel_route.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level2.file_name_sorting_kakao_2018.*" />
+          <option name="PATTERN" value="level3.travel_route.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,24 +94,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao_2020_internship.problem1.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.stock_price.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kakao_2020_internship.problem1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao_2020_internship.problem2.Main" />
-      <module name="programmers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kakao_2020_internship.problem2.*" />
+          <option name="PATTERN" value="level2.stock_price.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +107,24 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kakao_2020_internship.problem3.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.noodle_factory.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kakao_2020_internship.problem3.*" />
+          <option name="PATTERN" value="level2.noodle_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="level2.iron_rod.Main" />
+      <module name="programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level2.iron_rod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +193,9 @@
       <workItem from="1588816485967" duration="13099000" />
       <workItem from="1589000599818" duration="15934000" />
       <workItem from="1589166546431" duration="1840000" />
+      <workItem from="1590457604675" duration="14687000" />
+      <workItem from="1590555502893" duration="5198000" />
+      <workItem from="1590629953859" duration="15321000" />
     </task>
     <servers />
   </component>
@@ -208,50 +207,54 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585271447372" />
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1588824932745">
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1590638622144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588824932745" />
-    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1588650637872">
+    <state x="958" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590638622144" />
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1590651612945">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1588650637872" />
-    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1589175365457">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1590651612945" />
+    <state x="899" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590635272005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589175365457" />
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1589175369429">
+    <state x="899" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1590635272005" />
+    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1590559055341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589175369429" />
-    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1589175369428">
+    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590559055341" />
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589175369428" />
-    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1589175369428">
+    <state width="1493" height="287" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.0.center" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589175369428" />
-    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1589175369428">
+    <state width="1493" height="287" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.0.left" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589175369428" />
-    <state width="1493" height="162" key="GridCell.Tab.1.bottom" timestamp="1589018625416">
+    <state width="1493" height="287" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.0.right" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589018625416" />
-    <state width="1493" height="162" key="GridCell.Tab.1.center" timestamp="1589018625416">
+    <state width="1493" height="287" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.1.bottom" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589018625416" />
-    <state width="1493" height="162" key="GridCell.Tab.1.left" timestamp="1589018625416">
+    <state width="1493" height="287" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.1.center" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589018625416" />
-    <state width="1493" height="162" key="GridCell.Tab.1.right" timestamp="1589018625416">
+    <state width="1493" height="287" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.1.left" timestamp="1590654508344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589018625416" />
+    <state width="1493" height="287" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
+    <state width="1493" height="287" key="GridCell.Tab.1.right" timestamp="1590654508344">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="287" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590654508344" />
     <state x="555" y="60" key="SettingsEditor" timestamp="1588741682172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,18 +263,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="843" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585371733397" />
+    <state x="499" y="172" key="extract.method.dialog" timestamp="1590652558712">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="172" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1590652558712" />
     <state x="360" y="26" key="new project wizard" timestamp="1589000700321">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="26" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589000700321" />
-    <state x="474" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1580869654085">
+    <state x="474" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1590651736894">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="474" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580869654085" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1589010908380">
+    <state x="474" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1590651736894" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590480846939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1589010908380" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590480846939" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
