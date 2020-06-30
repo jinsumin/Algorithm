@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/making_bridge_2_17472/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/making_bridge_2_17472/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +65,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Groupers/grouping-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,26 +85,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="stand_in_one_line" />
       <recent name="where_is_the_laser_beam_3709" />
       <recent name="checker_1090" />
       <recent name="gary_manderling_17779" />
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="find_the_bead_2617.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="find_the_bead_2617.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collecting_dots_7571.Main" />
       <module name="baekJoon" />
@@ -111,12 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="octal_binary_1212.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sangguens_travel.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="octal_binary_1212.*" />
+          <option name="PATTERN" value="sangguens_travel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stand_in_one_line.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stand_in_one_line.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -340,12 +361,25 @@
       <workItem from="1592559052903" duration="2037000" />
       <workItem from="1592578745495" duration="32000" />
       <workItem from="1593050755611" duration="4313000" />
-      <workItem from="1593135897991" duration="6057000" />
+      <workItem from="1593135897991" duration="6727000" />
+      <workItem from="1593480428227" duration="9813000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Auto_Import" timestamp="1585104360624">
@@ -356,10 +390,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1589780566585" />
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1593053909984">
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1593485052146">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593053909984" />
+    <state x="958" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593485052146" />
     <state x="833" y="151" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586503621454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -368,46 +402,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1589943328944" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593064307177">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1593495319986">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593064307177" />
-    <state width="1493" height="316" key="GridCell.Tab.0.bottom" timestamp="1593064308138">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593495319986" />
+    <state width="723" height="259" key="GridCell.Tab.0.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="316" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593064308138" />
-    <state width="1493" height="316" key="GridCell.Tab.0.center" timestamp="1593064308138">
+    <state width="723" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.0.center" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="316" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593064308138" />
-    <state width="1493" height="316" key="GridCell.Tab.0.left" timestamp="1593064308138">
+    <state width="723" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.0.left" timestamp="1593495320800">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
-    <state width="1493" height="316" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593064308138" />
-    <state width="1493" height="316" key="GridCell.Tab.0.right" timestamp="1593064308138">
+    <state width="723" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593495320800" />
+    <state width="723" height="259" key="GridCell.Tab.0.right" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="1493" height="316" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593064308138" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1589967458096">
+    <state width="723" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589967458096" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1589967458096">
+    <state width="723" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.1.center" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589967458096" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1589967458096">
+    <state width="723" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.1.left" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589967458096" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1589967458096">
+    <state width="723" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="259" key="GridCell.Tab.1.right" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589967458096" />
+    <state width="723" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
     <state x="22" y="58" key="SettingsEditor" timestamp="1589701376074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -421,10 +455,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1587968429623" />
-    <state x="178" y="42" width="1176" height="758" key="new project wizard" timestamp="1589706185194">
+    <state x="178" y="42" width="1176" height="758" key="new project wizard" timestamp="1593495308264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="42" width="1176" height="758" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589706185194" />
+    <state x="178" y="42" width="1176" height="758" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593495308264" />
     <state x="895" y="32" key="refactoring.ChangeSignatureDialog" timestamp="1591070292492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

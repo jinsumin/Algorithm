@@ -48,7 +48,7 @@ class Solution {
 
     public int solution(int[][] map) {
         findLand(map);
-        makeBridge(map);
+        //makeBridge(map);
         if (isAllLandLinked(map)) {
             return totalLengthOfBridge;
         }
@@ -64,13 +64,13 @@ class Solution {
                 }
                 if (map[i][j] != 0) {
                     numberOfLand++;
-                    numberingLand(map, visited, numberOfLand);
+                    //numberingLand(map, visited, numberOfLand);
                 }
             }
         }
     }
 
-    private void makeBridge(int[][] map) {
+    /*private void makeBridge(int[][] map) {
         boolean[] visitedLand = new boolean[numberOfLand];
         PriorityQueue<Land> priorityQueue = new PriorityQueue<>(new Comparator<Land>() {
             @Override
@@ -80,7 +80,7 @@ class Solution {
         });
         Deque<Integer> deque = new ArrayDeque<>();
 
-    }
+    }*/
 
     private boolean isAllLandLinked(int[][] map) {
         for (int i = 0; i < map.length; i++) {
