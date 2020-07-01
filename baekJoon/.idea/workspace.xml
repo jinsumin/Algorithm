@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/making_bridge_2_17472/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/making_bridge_2_17472/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/installing_router_2110/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/installing_router_2110/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Groupers/grouping-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,13 +92,13 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collecting_dots_7571.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="installing_router_2110.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collecting_dots_7571.*" />
+          <option name="PATTERN" value="installing_router_2110.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="four_square_theorem_of_largrange_3933.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collecting_dots_7571.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="four_square_theorem_of_largrange_3933.*" />
+          <option name="PATTERN" value="collecting_dots_7571.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,6 +363,7 @@
       <workItem from="1593050755611" duration="4313000" />
       <workItem from="1593135897991" duration="6727000" />
       <workItem from="1593480428227" duration="9813000" />
+      <workItem from="1593567920434" duration="4130000" />
     </task>
     <servers />
   </component>
@@ -406,26 +407,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593495319986" />
-    <state width="723" height="259" key="GridCell.Tab.0.bottom" timestamp="1593495320801">
+    <state width="723" height="392" key="GridCell.Tab.0.bottom" timestamp="1593571771791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1234" height="235" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
-    <state width="723" height="259" key="GridCell.Tab.0.center" timestamp="1593495320801">
+    <state width="723" height="392" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593571771791" />
+    <state width="723" height="392" key="GridCell.Tab.0.center" timestamp="1593571771791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1234" height="235" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
-    <state width="723" height="259" key="GridCell.Tab.0.left" timestamp="1593495320800">
+    <state width="723" height="392" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593571771791" />
+    <state width="723" height="392" key="GridCell.Tab.0.left" timestamp="1593571771791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1234" height="235" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480061" />
-    <state width="723" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593495320800" />
-    <state width="723" height="259" key="GridCell.Tab.0.right" timestamp="1593495320801">
+    <state width="723" height="392" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593571771791" />
+    <state width="723" height="392" key="GridCell.Tab.0.right" timestamp="1593571771791">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1234" height="235" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584926480062" />
-    <state width="723" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
+    <state width="723" height="392" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593571771791" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -449,7 +446,6 @@
     <state x="464" y="106" key="com.intellij.ide.util.TipDialog" timestamp="1586503568219">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="2693" y="134" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2560.1040@1920.0.2560.1040" timestamp="1584879516937" />
     <state x="464" y="106" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586503568219" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1587968429623">
       <screen x="0" y="0" width="1536" height="824" />
