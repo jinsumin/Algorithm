@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/level3/path_finding_game/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../baekJoon/src/green_shirts_zelda_4485/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/src/green_shirts_zelda_4485/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +33,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Groupers/grouping-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -184,7 +183,7 @@
       <workItem from="1590629953859" duration="15321000" />
       <workItem from="1590746938653" duration="2557000" />
       <workItem from="1590840097216" duration="785000" />
-      <workItem from="1593653544110" duration="7442000" />
+      <workItem from="1593653544110" duration="7484000" />
     </task>
     <servers />
   </component>
@@ -208,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="899" y="273" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1590635272005" />
-    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1590975716637">
+    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1593669734275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590975716637" />
+    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593669734275" />
     <state width="723" height="180" key="GridCell.Tab.0.bottom" timestamp="1590748250649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

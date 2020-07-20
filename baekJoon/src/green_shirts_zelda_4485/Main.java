@@ -3,6 +3,7 @@ package green_shirts_zelda_4485;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
@@ -34,6 +35,19 @@ class Solution {
 
     public void solution(int[][] map) {
         int[][] rupeeMap = new int[map.length][map[0].length];
+        for (int[] ints : rupeeMap) {
+            Arrays.fill(ints, Integer.MAX_VALUE);
+        }
+        Node startNode = new Node(0, 0);
+        Node endNode = new Node(map.length - 1, map.length - 1);
+        
+    }
 
+    private static class Node {
+        int r, c;
+        public Node(int r, int c) {
+            this.r = r;
+            this.c = c;
+        }
     }
 }
