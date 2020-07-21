@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rotating_queue_1021/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rotating_queue_1021/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="installing_router_2110.Main" />
       <module name="baekJoon" />
@@ -131,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stand_in_one_line.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rotating_queue_1021.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stand_in_one_line.*" />
+          <option name="PATTERN" value="rotating_queue_1021.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +368,7 @@
       <workItem from="1595220277279" duration="4807000" />
       <workItem from="1595241281356" duration="10000" />
       <workItem from="1595300413774" duration="41000" />
-      <workItem from="1595307388323" duration="774000" />
+      <workItem from="1595307388323" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -403,22 +404,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595300451868" />
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom" timestamp="1595227747887">
+    <state width="723" height="249" key="GridCell.Tab.0.bottom" timestamp="1595310207988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595227747887" />
-    <state width="1493" height="230" key="GridCell.Tab.0.center" timestamp="1595227747886">
+    <state width="723" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595310207988" />
+    <state width="723" height="249" key="GridCell.Tab.0.center" timestamp="1595310207987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595227747886" />
-    <state width="1493" height="230" key="GridCell.Tab.0.left" timestamp="1595227747886">
+    <state width="723" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595310207987" />
+    <state width="723" height="249" key="GridCell.Tab.0.left" timestamp="1595310207987">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595227747886" />
-    <state width="1493" height="230" key="GridCell.Tab.0.right" timestamp="1595227747887">
+    <state width="723" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595310207987" />
+    <state width="723" height="249" key="GridCell.Tab.0.right" timestamp="1595310207988">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595227747886" />
+    <state width="723" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595310207988" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
