@@ -69,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AndroidStudioProjects/Groupers/grouping-app" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,7 +91,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tournament.Main" />
       <module name="baekJoon" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rod_1094.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrange_numbers_3_10989.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rod_1094.*" />
+          <option name="PATTERN" value="arrange_numbers_3_10989.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +145,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repaint_the_chessboard_1018.Main" />
+      <option name="MAIN_CLASS_NAME" value="treasure_1026.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="repaint_the_chessboard_1018.*" />
+          <option name="PATTERN" value="treasure_1026.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +369,8 @@
       <workItem from="1595300413774" duration="41000" />
       <workItem from="1595307388323" duration="3581000" />
       <workItem from="1595383526329" duration="130000" />
-      <workItem from="1595481135956" duration="3849000" />
+      <workItem from="1595481135956" duration="4511000" />
+      <workItem from="1595826325036" duration="2902000" />
     </task>
     <servers />
   </component>
@@ -401,26 +402,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1589943328944" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595383654911">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1595490525299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595383654911" />
-    <state width="723" height="261" key="GridCell.Tab.0.bottom" timestamp="1595484240711">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595490525299" />
+    <state width="723" height="130" key="GridCell.Tab.0.bottom" timestamp="1595829044255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595484240711" />
-    <state width="723" height="261" key="GridCell.Tab.0.center" timestamp="1595484240711">
+    <state width="723" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595829044255" />
+    <state width="723" height="130" key="GridCell.Tab.0.center" timestamp="1595829044254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595484240711" />
-    <state width="723" height="261" key="GridCell.Tab.0.left" timestamp="1595484240710">
+    <state width="723" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595829044254" />
+    <state width="723" height="130" key="GridCell.Tab.0.left" timestamp="1595829044254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595484240710" />
-    <state width="723" height="261" key="GridCell.Tab.0.right" timestamp="1595484240711">
+    <state width="723" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595829044254" />
+    <state width="723" height="130" key="GridCell.Tab.0.right" timestamp="1595829044255">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595484240711" />
+    <state width="723" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595829044255" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
