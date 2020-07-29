@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/treasure_1026/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/treasure_1026/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/treasure_1026/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/treasure_1026/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treasure_1026/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/treasure_1026/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -91,13 +94,26 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tournament.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hansoo_1065.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hansoo_1065.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,24 +135,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rotating_queue_1021.Main" />
+      <option name="MAIN_CLASS_NAME" value="bestseller_1302.Main" />
       <module name="baekJoon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rotating_queue_1021.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ball_1547.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ball_1547.*" />
+          <option name="PATTERN" value="bestseller_1302.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +373,11 @@
       <workItem from="1595307388323" duration="3581000" />
       <workItem from="1595383526329" duration="130000" />
       <workItem from="1595481135956" duration="4511000" />
-      <workItem from="1595826325036" duration="2902000" />
+      <workItem from="1595826325036" duration="3624000" />
+      <workItem from="1595908452245" duration="785000" />
+      <workItem from="1595915217371" duration="21000" />
+      <workItem from="1595999040193" duration="3448000" />
+      <workItem from="1596002531834" duration="1284000" />
     </task>
     <servers />
   </component>
@@ -390,6 +397,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1038" y="277" key="#Notifications" timestamp="1596002488461">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="1038" y="277" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1596002488461" />
     <state x="361" y="53" key="#Plugins" timestamp="1589780566585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -406,22 +417,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595490525299" />
-    <state width="723" height="130" key="GridCell.Tab.0.bottom" timestamp="1595829044255">
+    <state width="723" height="278" key="GridCell.Tab.0.bottom" timestamp="1596002491460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595829044255" />
-    <state width="723" height="130" key="GridCell.Tab.0.center" timestamp="1595829044254">
+    <state width="723" height="278" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596002491460" />
+    <state width="723" height="278" key="GridCell.Tab.0.center" timestamp="1596002491460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595829044254" />
-    <state width="723" height="130" key="GridCell.Tab.0.left" timestamp="1595829044254">
+    <state width="723" height="278" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596002491460" />
+    <state width="723" height="278" key="GridCell.Tab.0.left" timestamp="1596002491460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595829044254" />
-    <state width="723" height="130" key="GridCell.Tab.0.right" timestamp="1595829044255">
+    <state width="723" height="278" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596002491460" />
+    <state width="723" height="278" key="GridCell.Tab.0.right" timestamp="1596002491460">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595829044255" />
+    <state width="723" height="278" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596002491460" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -438,10 +449,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593495320801" />
-    <state x="22" y="58" key="SettingsEditor" timestamp="1589701376074">
+    <state x="22" y="58" key="SettingsEditor" timestamp="1596002544749">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1589701376074" />
+    <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596002544749" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1587968429623">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
