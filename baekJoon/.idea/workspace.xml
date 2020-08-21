@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63d4e6d7-21e1-4e62-b559-771e15f13393" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/baekJoon/suffix_array_11656/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/baekJoon/suffix_array_11656/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/baekJoon/teaching_1062/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/baekJoon/teaching_1062/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/suffix_array_11656/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/teaching_1062/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/baekJoon/alphabetic_count_10808/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/baekJoon/alphabetic_count_10808/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,20 +91,7 @@
       <recent name="population_movement_16234" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="change_money_5585.Main" />
-      <module name="baekJoon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="change_money_5585.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="suffix_array_11656.Main" />
       <module name="baekJoon" />
@@ -151,6 +131,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bye_fine_dust_17144.Main" />
+      <module name="baekJoon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bye_fine_dust_17144.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="alphabetic_count_10808.Main" />
       <module name="baekJoon" />
@@ -177,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +394,9 @@
       <workItem from="1596430738862" duration="1646000" />
       <workItem from="1596433761497" duration="216000" />
       <workItem from="1596442955891" duration="147000" />
-      <workItem from="1596517358070" duration="5397000" />
+      <workItem from="1596517358070" duration="5438000" />
+      <workItem from="1596523073212" duration="21000" />
+      <workItem from="1597986408559" duration="8462000" />
     </task>
     <servers />
   </component>
@@ -440,26 +435,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="275" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1589943328944" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596522758391">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1596523091727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596522758391" />
-    <state width="745" height="340" key="GridCell.Tab.0.bottom" timestamp="1596522737970">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596523091727" />
+    <state width="1493" height="332" key="GridCell.Tab.0.bottom" timestamp="1597994385124">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="340" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596522737970" />
-    <state width="745" height="340" key="GridCell.Tab.0.center" timestamp="1596522737970">
+    <state width="1493" height="332" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597994385124" />
+    <state width="1493" height="332" key="GridCell.Tab.0.center" timestamp="1597994385121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="340" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596522737970" />
-    <state width="745" height="340" key="GridCell.Tab.0.left" timestamp="1596522737969">
+    <state width="1493" height="332" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597994385121" />
+    <state width="1493" height="332" key="GridCell.Tab.0.left" timestamp="1597994385121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="340" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596522737969" />
-    <state width="745" height="340" key="GridCell.Tab.0.right" timestamp="1596522737970">
+    <state width="1493" height="332" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597994385121" />
+    <state width="1493" height="332" key="GridCell.Tab.0.right" timestamp="1597994385123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="340" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596522737970" />
+    <state width="1493" height="332" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597994385123" />
     <state width="723" height="259" key="GridCell.Tab.1.bottom" timestamp="1593495320801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -480,10 +475,6 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="22" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596522761871" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1587968429623">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1587968429623" />
     <state x="178" y="42" width="1176" height="758" key="new project wizard" timestamp="1593495308264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
