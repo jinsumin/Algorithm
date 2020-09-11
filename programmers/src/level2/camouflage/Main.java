@@ -1,11 +1,11 @@
 package level2.camouflage;
 
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.*;
 
 /**
- * Created by Crab on 2020-05-26.
+ * Created by Crab on 2020-09-02.
  */
+
 public class Main {
     public static void main(String[] args) {
         String[][] clothes = {
@@ -16,10 +16,9 @@ public class Main {
     }
 }
 
-
 class Solution {
     public int solution(String[][] clothes) {
-        int answer = 1;
+        int answer = 0;
         HashMap<String, Integer> hashMap = new HashMap<>();
         for (String[] clothe : clothes) {
             String key = clothe[1];
@@ -29,9 +28,15 @@ class Solution {
                 hashMap.put(key, 1);
             }
         }
+        answer = getNumberOfAllCombinations(hashMap);
+        return answer;
+    }
+
+    private int getNumberOfAllCombinations(HashMap<String, Integer> hashMap) {
+        int result = 1;
         for (Integer integer : hashMap.values()) {
-            answer *= (integer + 1);
+            result *= (integer + 1);
         }
-        return answer - 1;
+        return result - 1;
     }
 }

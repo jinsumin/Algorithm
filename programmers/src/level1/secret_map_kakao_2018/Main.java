@@ -1,9 +1,7 @@
 package level1.secret_map_kakao_2018;
 
-import java.util.Arrays;
-
 /**
- * Created by Crab on 2020-05-05.
+ * Created by Crab on 2020-08-31.
  */
 public class Main {
     public static void main(String[] args) {
