@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d73672-9177-467d-ac3c-ea2aa904cb82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/level2/n_minimum_common_multiple/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/worldcup_6987/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/worldcup_6987/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/worldcup_6987/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../baekJoon/out/production/baekJoon/worldcup_6987/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/level2/make_prime_number/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programmers/level2/n_minimum_common_multiple/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programmers/level2/n_minimum_common_multiple/Solution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,26 +52,13 @@
       <recent name="level3.disk_controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level3.longest_palindrome.Main" />
-      <module name="programmers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="level3.longest_palindrome.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level1.dont_like_same_number.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.n_jin_game.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level1.dont_like_same_number.*" />
+          <option name="PATTERN" value="level2.n_jin_game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +67,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level2.parenthesis_transformation.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.build_jaden_case_string.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level2.parenthesis_transformation.*" />
+          <option name="PATTERN" value="level2.build_jaden_case_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +80,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="level3.line_method.Main" />
+      <option name="MAIN_CLASS_NAME" value="level2.make_prime_number.Main" />
       <module name="programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="level3.line_method.*" />
+          <option name="PATTERN" value="level2.make_prime_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +105,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="level2.most_biggest_square.Main" />
+      <module name="programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="level2.most_biggest_square.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,12 @@
       <workItem from="1599629844542" duration="3711000" />
       <workItem from="1599802551342" duration="4021000" />
       <workItem from="1600232645388" duration="13000" />
-      <workItem from="1603688809709" duration="2089000" />
+      <workItem from="1603688809709" duration="2815000" />
+      <workItem from="1603771738502" duration="6778000" />
+      <workItem from="1603851441135" duration="121000" />
+      <workItem from="1603860338801" duration="3408000" />
+      <workItem from="1603945868246" duration="4338000" />
+      <workItem from="1604983219853" duration="2628000" />
     </task>
     <servers />
   </component>
@@ -218,26 +221,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1600232655413">
+    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1603851559813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600232655413" />
-    <state width="1493" height="289" key="GridCell.Tab.0.bottom" timestamp="1603690971947">
+    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603851559813" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1604985554923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603690971947" />
-    <state width="1493" height="289" key="GridCell.Tab.0.center" timestamp="1603690971946">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604985554923" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1604985554923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603690971946" />
-    <state width="1493" height="289" key="GridCell.Tab.0.left" timestamp="1603690971946">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604985554923" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1604985554922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603690971946" />
-    <state width="1493" height="289" key="GridCell.Tab.0.right" timestamp="1603690971946">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604985554922" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1604985554923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="289" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603690971946" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604985554923" />
     <state width="1493" height="306" key="GridCell.Tab.1.bottom" timestamp="1599202860457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -254,6 +257,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="306" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599202860456" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1604985447244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604985447244" />
     <state x="278" y="148" width="980" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598420616065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
